@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aspsine.fontmanager.demo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.aspsine.fontmanager.demo.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="18sp"
+            app:textFont="Lanehum" />
+
+        <com.aspsine.fontmanager.demo.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="18sp"
+            app:textFont="OrangeJuice" />
+
+        <com.aspsine.fontmanager.demo.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="18sp"
+            app:textFont="OrmontLight" />
+
+        <com.aspsine.fontmanager.demo.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            android:textSize="18sp"
+            app:textFont="WedgieRegular" />
+
+        <com.aspsine.fontmanager.demo.FontEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:textFont="Lanehum" />
+
+        <com.aspsine.fontmanager.demo.FontEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:textFont="OrangeJuice" />
+
+        <com.aspsine.fontmanager.demo.FontEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:textFont="OrmontLight" />
+
+        <com.aspsine.fontmanager.demo.FontEditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!"
+            app:textFont="WedgieRegular" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFontOne"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me Change Font" />
+
+    <Button
+        android:id="@+id/btnFontTwo"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me Change Font" />
+
+    <Button
+        android:id="@+id/btnFontThree"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me Change Font" />
+
+    <Button
+        android:id="@+id/btnFontFour"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me Change Font" />
+
+
+</LinearLayout>

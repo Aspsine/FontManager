@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="textFont" format="enum">
+        <enum name="Lanehum" value="0" />
+        <enum name="OrangeJuice" value="1" />
+        <enum name="OrmontLight" value="2" />
+        <enum name="WedgieRegular" value="3" />
+    </attr>
+
+    <declare-styleable name="FontTextView">
+        <attr name="textFont" />
+    </declare-styleable>
+
+    <declare-styleable name="FontEditText">
+        <attr name="textFont" />
+    </declare-styleable>
+</resources>
