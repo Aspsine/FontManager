@@ -42,7 +42,7 @@ public class SplashActivity extends AppCompatActivity {
                         Toast.makeText(SplashActivity.this, "Load font cost " + delta +" ms", Toast.LENGTH_SHORT).show();
                         intentToMain();
                     }
-                }, SPLASH_TIME - useTime);
+                }, delta);
             }
         }).start();
     }

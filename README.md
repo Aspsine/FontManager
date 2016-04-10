@@ -62,3 +62,6 @@ FontsUtils.setFonts(viewGroup, fontType)
     android:text="Hello World!"
     app:textFont="Lanehum" />
 ```
+
+- Demonstrate how to load fonts into memory during splash
+ [SplashActivity](https://github.com/Aspsine/FontManager/blob/master/app/src/main/java/com/aspsine/fontmanager/demo/SplashActivity.java)
