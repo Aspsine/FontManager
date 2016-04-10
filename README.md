@@ -1,6 +1,12 @@
 # FontManager
 Android Font Manager
 
+### Demo
+[Download](https://github.com/Aspsine/FontManager/blob/master/art/demo.apk?raw=true)
+
+### ScreenShot
+![demo](https://github.com/Aspsine/FontManager/blob/master/art/screenshot.gif?raw=true)
+
 ### How to use
 Step 1. Add the JitPack repository to your build file. Add it in your root build.gradle at the end of repositories:
 ```groovy
