@@ -31,6 +31,12 @@ public class FontManager {
     private FontManager() {
     }
 
+    /**
+     * load fonts into memory, this may take some times.
+     *
+     * @param context        activity&application&service context
+     * @param fontAssetPaths array of paths in asserts
+     */
     public void init(Context context, String[] fontAssetPaths) {
         Context applicationContext = context.getApplicationContext();
         AssetManager assetManager = applicationContext.getAssets();
@@ -39,6 +45,13 @@ public class FontManager {
         }
     }
 
+    /**
+     * Get the Typeface. If it hasn't been cached, cache it then return it.
+     *
+     * @param assetManager {@link AssetManager}
+     * @param path         Font path in asserts folder
+     * @return The Typeface associated with path
+     */
     public Typeface getTypeface(AssetManager assetManager, String path) {
         Typeface typeface = null;
         SoftReference<Typeface> typefaceSoftReference = sTypefaceMap.get(path);
@@ -58,11 +71,11 @@ public class FontManager {
         return typeface;
     }
 
-    private void remove(String path) {
+    public void remove(String path) {
         sTypefaceMap.remove(path);
     }
 
-    private void clear(){
+    public void clear() {
         sTypefaceMap.clear();
     }
 
